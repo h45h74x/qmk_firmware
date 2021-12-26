@@ -77,7 +77,6 @@
 // RGB Matrix Animation modes. Explicitly enabled
 // For full list of effects, see:
 // https://docs.qmk.fm/#/feature_rgb_matrix?id=rgb-matrix-effects
-// #define RGB_MATRIX_NONE                      // -
 
 // #define RGB_MATRIX_SOLID_COLOR                  // DOES NOT BUILD?? - Static single hue no speed support
 // #define RGB_MATRIX_ALPHAS_MODS                  // Static dual hue speed is hue for secondary hue
@@ -127,7 +126,6 @@
 #define RGB_MATRIX_SOLID_SPLASH                 // Hue & value pulse away from a single key hit then fades value out
 #define RGB_MATRIX_SOLID_MULTISPLASH            // Hue & value pulse away from multiple key hits then fades value out
 
-// #define RGB_MATRIX_EFFECT_MAX                // -
 
 /* 1000Hz USB polling - it's the default on stock firmware */
 #define USB_POLLING_INTERVAL_MS 1
